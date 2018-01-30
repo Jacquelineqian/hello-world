@@ -1,0 +1,27 @@
+{
+    "name": "vbot/hello-world",
+    "description": "Vbot 扩展 你好世界",
+    "keywords": [
+        "Vbot",
+        "扩展",
+        "你好世界"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "QianJiaQi",
+            "email": "moqiluoji@sina.com"
+        }
+    ],
+    "require": {
+        "vbot/http":"~1.0",
+    },
+    "require-dev": {
+        "hanson/vbot": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vbot\\HelloWorld\\": "src/"
+        }
+    }
+}
