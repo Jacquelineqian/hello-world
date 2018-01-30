@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "vbot/http":"~1.0",
+        "vbot/http":"~1.0"
     },
     "require-dev": {
         "hanson/vbot": "~2.0"
